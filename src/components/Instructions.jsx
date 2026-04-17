@@ -31,14 +31,14 @@ export const Instructions = () => {
   return (
     <div className="">
       <h2 className="text-preset-2 text-clr-brown-800 mb-6">Instructions</h2>
-      <ol className="list-decimal list-outside ml-6 flex flex-col gap-2  text-preset-4">
+      <ol className="list-decimal list-outside ml-6 flex flex-col gap-1  text-preset-4">
         {instructionData.map((step, index) => (
           <li
             key={index}
             className="pl-4 marker:text-clr-brown-800 marker:font-bold text-clr-stone-600"
           >
             <p>
-              <span className="text-preset-5 font-bold">{step.title}: </span>
+              <span className="text-preset-4">{step.title}: </span>
               {step.desc}
             </p>
           </li>

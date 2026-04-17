@@ -1,4 +1,10 @@
 export const Nutrition = () => {
+  const nutritionValue = [
+    { name: "Calories", value: "277kcal" },
+    { name: "Carbs", value: "0g" },
+    { name: "Protein", value: "20g" },
+    { name: "Fat", value: "22g" },
+  ];
   return (
     <div className="mt-8 md:mb-10">
       <h2 className="text-preset-2 text-clr-brown-800">Nutrition</h2>
@@ -9,24 +15,20 @@ export const Nutrition = () => {
 
       <table className="w-full border-collapse">
         <tbody className="divide-y divide-clr-stone-150">
-          <tr>
-            <th scope="row" className="py-3 text-clr-stone-600">Calories</th>
-            <td className="py-3 font-bold text-clr-brown-800 text-left">
-              277kcal
-            </td>
-          </tr>
-          <tr>
-            <th scope="row" className="py-3 text-clr-stone-600">Carbs</th>
-            <td className="py-3 font-bold text-clr-brown-800 text-left">0g</td>
-          </tr>
-          <tr>
-            <th scope="row" className="py-3 text-clr-stone-600">Protein</th>
-            <td className="py-3 font-bold text-clr-brown-800 text-left">20g</td>
-          </tr>
-          <tr>
-            <th scope="row" className="py-3 text-clr-stone-600">Fat</th>
-            <td className="py-3 font-bold text-clr-brown-800 text-left">22g</td>
-          </tr>
+          {nutritionValue.map((item, i) => (
+            <tr key={i}>
+              <th
+                scope="row"
+                className="py-[8.7px] text-start font-normal text-clr-stone-600"
+              >
+                {item.name}
+              </th>
+              <td className="py-2 font-bold text-clr-brown-800 text-left">
+                {item.value}
+              </td>
+            </tr>
+          ))}
+        
         </tbody>
       </table>
     </div>
