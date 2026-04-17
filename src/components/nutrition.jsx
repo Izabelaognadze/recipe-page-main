@@ -6,7 +6,7 @@ export const Nutrition = () => {
     { name: "Fat", value: "22g" },
   ];
   return (
-    <div className="mt-8 md:mb-10">
+    <div className="mt-8">
       <h2 className="text-preset-2 text-clr-brown-800">Nutrition</h2>
       <p className="text-preset-4 my-6">
         The table below shows nutritional values per serving without the
