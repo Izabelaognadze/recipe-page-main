@@ -10,12 +10,10 @@ permissions:
   pages: write
   id-token: write
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -23,14 +21,13 @@ jobs:
         id: build
         run: |
           npm install
-          npm run build 
+          npm run build
 
       - name: Upload static files as artifact
         id: deployment
-        uses: actions/upload-pages-artifact@v3 
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist/
-
 
   deploy:
     environment:
