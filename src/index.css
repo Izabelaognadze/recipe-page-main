@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-clr-rose-50: #FFF7FB;
+  --color-clr-rose-800: #7A284E;
+  --color-clr-stone-100: #F3E5D7;
+  --color-clr-stone-150: #E3DDD7;
+  --color-clr-stone-600: #5F564D;
+  --color-clr-stone-900: #312E2C;
+  --color-clr-brown-800: #854632;
+  --color-clr-white: #FFFFFF;
+
+  --font-fnt-serif: "Young Serif", serif;
+  --font-fnt-sans: "Outfit", sans-serif;
+
+}
+
+.text-preset-1 {
+  @apply text-[40px] leading-[100%] font-fnt-serif font-normal;
+}
+
+.text-preset-2 {
+  @apply text-[28px] leading-[100%] font-fnt-serif font-normal;
+}
+
+.text-preset-3 {
+  @apply text-[20px] leading-[100%] font-fnt-sans font-semibold;
+}
+
+.text-preset-4 {
+  @apply text-[16px] leading-[150%] font-fnt-sans font-normal;
+}
+
+.text-preset-5 {
+  @apply text-[16px] leading-[150%] font-fnt-sans font-bold;
+}
+
+@layer base {
+  body {
+    @apply bg-clr-stone-100;
+  }
+}
