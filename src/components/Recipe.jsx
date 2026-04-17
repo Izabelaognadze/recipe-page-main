@@ -10,18 +10,18 @@ export const Recipe = () => {
         choice of cheese, vegetables, or meats.{" "}
       </p>
       <div className="my-8 bg-clr-rose-50 rounded-xl p-6">
-        <h4 className="text-clr-rose-800 text-preset-3 mb-4">
+        <h2 className="text-clr-rose-800 text-preset-3 mb-4">
           Preparation time
-        </h4>
+        </h2>
         <ul className="flex flex-col gap-2 list-disc marker:text-clr-rose-800 ">
           <ListItem>
-            <strong>Total:</strong> Approximately 10 minutes
+            <strong className="text-clr-stone-600">Total:</strong> Approximately 10 minutes
           </ListItem>
           <ListItem>
-            <strong>Preparation:</strong> 5 minutes
+            <strong className="text-clr-stone-600">Preparation:</strong> 5 minutes
           </ListItem>
           <ListItem>
-            <strong>Cooking:</strong> 5 minutes
+            <strong className="text-clr-stone-600">Cooking:</strong> 5 minutes
           </ListItem>
         </ul>
       </div>

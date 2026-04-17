@@ -3,7 +3,7 @@ import { ListItem } from "./ListItem";
 export const Ingredients = () => {
   return (
     <div className="">
-      <h4 className="text-preset-2 text-clr-brown-800 mb-6">Ingredients</h4>
+      <h2 className="text-preset-2 text-clr-brown-800 mb-6">Ingredients</h2>
       <ul className="flex flex-col gap-2 list-disc marker:text-clr-brown-800 text-preset-4">
         <ListItem color="brown">2-3 large eggs</ListItem>
         <ListItem color="brown">Salt, to taste</ListItem>
