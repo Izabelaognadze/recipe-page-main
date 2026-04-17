@@ -29,7 +29,7 @@ export const Instructions = () => {
     },
   ];
   return (
-    <div className="my-6">
+    <div className="">
       <h4 className="text-preset-2 text-clr-brown-800 mb-6">Instructions</h4>
       <ol className="list-decimal list-outside ml-6 flex flex-col gap-4 text-preset-4">
         {instructionData.map((step, index) => (

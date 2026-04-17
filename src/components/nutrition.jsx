@@ -10,21 +10,21 @@ export const Nutrition = () => {
       <table className="w-full border-collapse">
         <tbody className="divide-y divide-clr-stone-150">
           <tr>
-            <td className="py-3 text-clr-stone-600 pl-8">Calories</td>
+            <th scope="row" className="py-3 text-clr-stone-600">Calories</th>
             <td className="py-3 font-bold text-clr-brown-800 text-left">
               277kcal
             </td>
           </tr>
           <tr>
-            <td className="py-3 text-clr-stone-600 pl-8">Carbs</td>
+            <th scope="row" className="py-3 text-clr-stone-600">Carbs</th>
             <td className="py-3 font-bold text-clr-brown-800 text-left">0g</td>
           </tr>
           <tr>
-            <td className="py-3 text-clr-stone-600 pl-8">Protein</td>
+            <th scope="row" className="py-3 text-clr-stone-600">Protein</th>
             <td className="py-3 font-bold text-clr-brown-800 text-left">20g</td>
           </tr>
           <tr>
-            <td className="py-3 text-clr-stone-600 pl-8">Fat</td>
+            <th scope="row" className="py-3 text-clr-stone-600">Fat</th>
             <td className="py-3 font-bold text-clr-brown-800 text-left">22g</td>
           </tr>
         </tbody>

@@ -17,11 +17,11 @@ function App() {
       <Recipe />
       <Ingredients />
 
-      <hr className="border-clr-stone-150" />
+      <hr className="border-clr-stone-150 my-8" />
 
       <Instructions />
 
-      <hr className="border-clr-stone-150" />
+      <hr className="border-clr-stone-150 my-8" />
       <Nutrition />
     </div>
   );

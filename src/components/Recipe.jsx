@@ -10,9 +10,9 @@ export const Recipe = () => {
         choice of cheese, vegetables, or meats.{" "}
       </p>
       <div className="my-8 bg-clr-rose-50 rounded-xl p-6">
-        <h5 className="text-clr-rose-800 text-preset-3 mb-4">
+        <h4 className="text-clr-rose-800 text-preset-3 mb-4">
           Preparation time
-        </h5>
+        </h4>
         <ul className="flex flex-col gap-2 list-disc marker:text-clr-rose-800 ">
           <ListItem>
             <strong>Total:</strong> Approximately 10 minutes
